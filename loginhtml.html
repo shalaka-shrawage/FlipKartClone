@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <link rel="stylesheet" href="logincss.css" />
+
+</head>
+<body>
+
+    <div class="loginpage">
+
+        <div class="leftdiv">
+            <div class="loginheading">Login</div>
+            <div class="loginnextheading">Get access to your Orders, Wishlist and Recomendations.</div>
+        </br>
+            <img width="250px"src="data:image/png;base64,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"/>
+        </div>
+
+        <div class="rightdiv">
+
+            <input type="text" class="email" value="Enter Email">
+            <input type="text" class="pswd" value="Enter Password">
+            <div class="policy">By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</div>
+            <button class="login" type="submit"><span>Login</span></button>
+            <div class="or">OR</div>
+            <button class="otp" type="submit"><span>Request OTP</span></button>
+            <div class="createaccount">New to FlipKart? Create an account.</div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

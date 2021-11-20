@@ -1,0 +1,95 @@
+
+.loginpage{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.leftdiv{
+    flex-direction: row;
+    width: 250px;
+    height: 500px;
+    background-color: #2874f0;
+}
+.loginheading{
+    font-size: 25px;
+    color: white;
+    text-decoration-style:solid white;
+    padding: 20px;
+}
+.loginnextheading{
+    font-size: 20px;
+    color: rgb(228, 220, 220);
+    padding: 20px;
+}
+
+
+
+.rightdiv{
+    width: 350px;
+    flex-direction: row;
+    background-color:whitesmoke;
+    padding: 30px;
+}
+.email{
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    padding: 5px;
+    color: rgb(197, 193, 193);
+}
+.pswd{
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    margin-left: 20px;
+    border: none;
+    padding: 5px;
+    color: rgb(197, 193, 193);
+}
+.policy{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #2874f0 ;
+}
+.login{
+    height: 50px;
+    width: 250px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(247, 136, 33);
+    border: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    text-decoration-style:solid white;
+    margin-top: 20px;
+}
+.or{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.otp{
+    height: 50px;
+    width: 250px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:white;
+    margin-left: 20px;
+    font-size: 20px;
+    color: blue;
+    text-decoration-style:solid blue;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(197, 193, 193);
+}
+.createaccount{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 17px;
+    color: #2874f0 ;
+}

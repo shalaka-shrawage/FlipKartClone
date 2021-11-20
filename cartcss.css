@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+    background-color: rgb(40, 110, 240);
+  }
+  
+.left {
+    display: flex;
+    align-items: center;
+  }
+
+.search input {
+    width: 500px;
+    padding: 15px;
+    margin: 0;
+    border-radius: 0;
+    height: 100%;
+    border-color: gray;
+  }
+
+  .header i {
+    padding: 0 7px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .login-btn1{
+      width: 100px;
+      height: 30px;
+      color: rgb(40, 110, 240);
+      background-color: white;
+  }
+
+  .login-btn2{
+    width: 60px;
+    height: 30px;
+    border: none;
+    color:  white;
+    background-color:  rgb(40, 110, 240);
+}
+
+.login-btn3{
+    width: 60px;
+    height: 30px;
+    border: none;
+    color:  white;
+    background-color:  rgb(40, 110, 240);
+}
+
+
+
+
+
+.cart{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(228, 228, 228);
+}
+
+.innercart{
+  margin-left: 200px;
+  width: 1100px;
+  height :450px;
+  background-color: white;
+}
+.carttext{
+    font-size: 25px;
+    text-decoration-style:solid black;   
+    margin-left: 40px;
+}
+.image{
+  margin-left: 450px;
+}
+.missng{
+  margin-left: 500px;
+  margin-top: 20px;
+}
+.added{
+  margin-left: 450px;
+  margin-top: 20px;
+
+}
+.login{
+  margin-left: 450px;
+    height: 50px;
+    width: 250px;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(247, 136, 33);
+    border: none;
+    color: white;
+    font-size: 20px;
+    text-decoration-style:solid white;
+    margin-top: 20px;
+}
+
+
+.footer{
+  margin-left: 150px;
+}

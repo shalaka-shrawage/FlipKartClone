@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+    background-color: rgb(40, 110, 240);
+  }
+  
+.left {
+    display: flex;
+    align-items: center;
+  }
+
+.search input {
+    width: 500px;
+    padding: 15px;
+    margin: 0;
+    border-radius: 0;
+    height: 100%;
+    border-color: gray;
+  }
+
+  .header i {
+    padding: 0 7px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .login-btn1{
+      width: 100px;
+      height: 30px;
+      color: rgb(40, 110, 240);
+      background-color: white;
+  }
+
+  .login-btn2{
+    width: 60px;
+    height: 30px;
+    border: none;
+    color:  white;
+    background-color:  rgb(40, 110, 240);
+}
+
+.login-btn3{
+    width: 60px;
+    height: 30px;
+    border: none;
+    color:  white;
+    background-color:  rgb(40, 110, 240);
+}
+
+
+
+.imageheader{
+    padding-left: 100px;
+    text-align: center;
+    align-items: center;
+}
+.container{
+    margin-top: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.innercontainers{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+
+
+.sliderheader{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    height: 300px;
+    background-color:orangered;
+    align-items: center;
+}
+.sliderimage1{
+    flex-direction: row;
+    padding: 20px;
+    height: 260px;
+    width: 50%;
+}
+.sliderimage2{
+    flex-direction: row;
+    padding: 20px;
+    height: 200px;
+    width: 30%;
+    margin-left: 100px;
+}
+.slidertext{
+    align-items: center;
+    margin-left: 700px;
+}
+
+
+
+.dealsheader{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    
+}
+.dealheading{
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    padding: 20px;
+}
+.maindealbody{
+    display: flex;
+    padding: 20px;
+}
+.dealcontainer{
+    padding: 30px;
+    flex-direction: column;
+}
+
+.dealdetails{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(231, 226, 226);
+}
+
+.footerinner{
+    margin-top: 50px;
+    padding: 50px;
+    flex-direction: row;
+}
+
+.poweredby{
+    flex-direction: row;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    padding-left: 200px;
+}
